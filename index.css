@@ -959,3 +959,39 @@ body{
       left: 10px;
     }
   }
+
+@media (max-width:600px) {
+    .logo{
+      width: 15px;
+      height: 15px;
+      border: 2px solid black;
+      border-radius: 50%;
+      position: relative;
+      display: inline-block;
+     
+    }
+    
+    .plus-sign{
+      font-size: 20px;
+      font-weight:bold;
+      position: absolute;
+      left: 4px;
+      top: -2px;
+      color: rgb(121, 121, 121);
+    }
+
+    .div-nav{
+      display: none;
+    }
+
+    .first-h1{
+      width: 200px;
+      font-size: 15px;
+    }
+
+    .first-p{
+      width: 200px;
+    }
+    
+  }
+
